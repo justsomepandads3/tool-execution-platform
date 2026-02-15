@@ -1,0 +1,145 @@
+/* Result Viewer Component Styles */
+
+.result-viewer {
+  margin-top: 24px;
+}
+
+.result-error,
+.result-json,
+.result-file,
+.result-loading {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.result-error {
+  border-left: 4px solid #e74c3c;
+  background: #fff5f5;
+}
+
+.result-error h3 {
+  margin: 0 0 12px 0;
+  color: #c0392b;
+}
+
+.result-error p {
+  margin: 0 0 16px 0;
+  color: #e74c3c;
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.result-loading {
+  border-left: 4px solid #3498db;
+  background: #f0f8ff;
+  text-align: center;
+  color: #3498db;
+}
+
+.result-json {
+  border-left: 4px solid #27ae60;
+}
+
+.result-json h3,
+.result-file h3 {
+  margin: 0 0 16px 0;
+  color: #27ae60;
+}
+
+.json-output {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.json-output pre {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.file-info {
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.file-info p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.file-info strong {
+  color: #222;
+}
+
+.download-button,
+.copy-button,
+.result-close-button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  margin-right: 8px;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.download-button {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white;
+}
+
+.download-button:hover {
+  opacity: 0.9;
+}
+
+.copy-button {
+  background: #ecf0f1;
+  color: #333;
+  border: 1px solid #bdc3c7;
+}
+
+.copy-button:hover {
+  background: #d5dbdb;
+}
+
+.result-close-button {
+  background: #95a5a6;
+  color: white;
+}
+
+.result-close-button:hover {
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .json-output {
+    max-height: 300px;
+    font-size: 11px;
+  }
+
+  .download-button,
+  .copy-button,
+  .result-close-button {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}

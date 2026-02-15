@@ -1,0 +1,58 @@
+# Environment
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+venv/
+env/
+ENV/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+
+# Docker
+.docker/
+
+# IDE
+.vscode
+.idea
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+logs/
+
+# Others
+DOCKER_GUIDE.md
+DOCKER_QUICK_REF.md
+DOCKER_TROUBLESHOOT.md
+EXTENSION_IMPLEMENTATION.md
+FILE_EXTENSION_HANDLING.md
+FILE_EXTENSION_QUICK_REF.md
+PROJECT_SPEC.md
+tmpclaude-049b-cwd
+tmpclaude-c215-cwd
+tmpclaude-7d43-cwd
+tmpclaude-22e8-cwd

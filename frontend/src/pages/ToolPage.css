@@ -1,0 +1,83 @@
+/* Tool Page Styles */
+
+.tool-header {
+  margin-bottom: 32px;
+}
+
+.tool-header h1 {
+  margin: 0 0 12px 0;
+  font-size: 28px;
+  color: #333;
+}
+
+.tool-description {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.tool-meta {
+  margin: 0;
+  font-size: 13px;
+  color: #999;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 24px;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.back-button:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.rerun-section {
+  margin-top: 48px;
+  border-top: 2px solid #e0e0e0;
+  padding-top: 32px;
+}
+
+.rerun-section h3 {
+  margin: 0 0 16px 0;
+  color: #333;
+}
+
+.execution-error {
+  background: #fff5f5;
+  border: 1px solid #fab1a0;
+  border-left: 4px solid #e74c3c;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.execution-error p {
+  margin: 0;
+  color: #c0392b;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tool-header h1 {
+    font-size: 22px;
+  }
+
+  .tool-description {
+    font-size: 14px;
+  }
+
+  .rerun-section {
+    margin-top: 32px;
+    padding-top: 24px;
+  }
+}
